@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>AnalogSea</title>
+  	<meta name="description" content="Explore the Sea">d
+
+  	<!-- Style Sheets -->
+  	<link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
+  	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+	<header>
+		<img class="logo" src="images/AnalogSeaLogo.png">
+	</header>
+	<form class="signup-form" action="/signup/" method="post">
+		<legend>Sign Up</legend>
+		<label for="user-email">Email</label>
+		<input type="email" name="user-email" id="user-email" placeholder="foo@bar.com" required>
+		<label for="user-password">Password</label>
+		<input type="password" name="user-password" id="user-password" placeholder="1234passw0rd" required>
+		<button type="submit">Sign Up</button>
+		<p class="forgot-wrapper">
+			<a href="/forgot-password/new" class="forgot-password">Forgot password?</a>
+		</p>
+	</form>
+	<footer>
+		<strong>Already have an account? <a href="/login" class="login-link">Log In</a></strong>
+	</footer>
+</body>
+</html>

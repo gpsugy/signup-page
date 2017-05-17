@@ -1,0 +1,82 @@
+html {
+	background-color: #4496E4;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*don't forget this!*/
+body * {
+	box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+}
+
+.logo {
+	height: 35px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.signup-form {
+	height: 480px;
+	width: 400px;
+	background-color: white;
+	padding: 40px 40px;
+	margin: auto;
+}
+
+/*remember, you don't need to have a class for everything. if it feels too unique, just do child selection*/
+.signup-form legend {
+	font-size: 35px;
+	margin: 0 auto 50px;
+	font-weight: 300;
+}
+
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 55px;
+	width: 320px;
+	border: 2px solid #e7e7e7;
+	border-width: 2px;
+	border-radius: 3px;
+	padding: 0 15px;
+}
+
+button[type="submit"] {
+	background-color: #69C273;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	border: 0;
+}
+
+button[type="submit"]:hover {
+	background-color: #6dad73;
+}
+
+.forgot-wrapper {
+	text-align: center;
+}
+
+.forgot-password {
+	color: #999;
+	font-size: 14px;
+}
+
+footer {
+	margin: 20px auto 100px;
+	text-align: center;
+}
+
+footer strong {
+	color: white;
+}
+
+.login-link {
+	color: white;
+}
